@@ -1,0 +1,383 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached at the funeral of that truly pious and faithful minister of Jesus Christ, Mr. Nich. Thorowgood at Godelman in Surrey. / By John Buck, Minister of the Gospel.</title>
+            <author>Buck, John.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1692</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 44 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A77743</idno>
+            <idno type="STC">Wing B5308A</idno>
+            <idno type="STC">ESTC R173204</idno>
+            <idno type="EEBO-CITATION">45504371</idno>
+            <idno type="OCLC">ocm 45504371</idno>
+            <idno type="VID">171671</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A77743)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 171671)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2585:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached at the funeral of that truly pious and faithful minister of Jesus Christ, Mr. Nich. Thorowgood at Godelman in Surrey. / By John Buck, Minister of the Gospel.</title>
+                  <author>Buck, John.</author>
+               </titleStmt>
+               <extent>[4], 20 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Tho. Cockerill, at the Three Legs in the Poultrey, over-against the Stocks-Market,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1692.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in: British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Thorowgood, Nich.</term>
+               <term>Bible. --  N.T. --  Phillippians, I, 23 --  Sermons.</term>
+               <term>Funeral sermons --  England --  Surrey --  Early works to 1800.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-04</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2013-04</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:171671:1" rendition="simple:additions"/>
+            <p>A SERMON Preached at the FUNERAL OF THAT Truly Pious and Faithful Miniſter of Jeſus Chriſt,</p>
+            <p>Mr. Nich. Thorowgood:</p>
+            <p>At <hi>Godelman</hi> in <hi>Surrey.</hi>
+            </p>
+            <p>By <hi>JOHN B<g ref="char:V">Ʋ</g>CK,</hi> Miniſter of the Goſpel.</p>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Tho. Cockerill,</hi> at the <hi>Three Legs</hi> in the <hi>Poultrey,</hi> over-againſt the <hi>Stocks-Market.</hi> 1692.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:171671:2"/>
+            <pb facs="tcp:171671:2"/>
+            <head>To the REVEREND <hi>Mr. Edward Veal,</hi> Miniſter of the Goſpel in <hi>Wapping.</hi>
+            </head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>COULD I be ungrateful, your Name had never been prefixed to this Sermon: For as you were pleaſed to command me this laſt Office of reſpect to the Deceaſed, of which you gave me an Example but a few Months before on the like ſad and ſorrowful Occaſion that call'd us together as Mourners: So 'tis but Juſtice you ſhould allow me the liberty, when my deareſt Friends go off the Stage ſo faſt, to expreſs my Thankfulneſs for one living, whoſe Friendſhip is ſo greatly valuable.</p>
+            <p>Any who know me, know I truly rejoice in the hap<g ref="char:EOLhyphen"/>py Relation that favours me with the honour of calling you <hi>Tutor,</hi> or <hi>Brother.</hi> Reading, and Books, have been but part of my ſmall Improvement; Your Friend<g ref="char:EOLhyphen"/>ly and Affable Converſe in your Family, and ſince, has been ſuch as I muſt blame my own Dulneſs for, if
+<pb facs="tcp:171671:3"/>I have not been advantaged thereby. We were ever mutually dear one to the other; diſtance and abſence have but heightened our Reciprocal Affections; that on your part muſt be owned the reſult only of a kind ge<g ref="char:EOLhyphen"/>nerous Diſpoſition; but on mine, as a juſt Tribute paid to your real Worth.</p>
+            <p>And may it be yet our Emulation, which of us ſhall continue the moſt Affectionately Cordial: May the God of Heaven long lengthen out your days of Service to his Church; and Crown therein your Miniſterial Labours with the moſt bleſſed Succeſs:</p>
+            <p>There are none more deſirous of it, than is,</p>
+            <closer>
+               <salute>SIR,</salute>
+               <signed>Your moſt Affectionate Brother, and Hearty Servant, JOHN BUCK.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:171671:3"/>
+            <epigraph>
+               <bibl>
+                  <hi>PHILIPP. I. 23.</hi>
+               </bibl>
+               <q>For I am in a ſtrait between two, having a deſire to depart, and to be with Chriſt, which is far better.</q>
+            </epigraph>
+            <p>'TIS pity any private Chriſtian of Exemplary Zeal for God and Religion, ſhould at any time go unlamented to his Grave; much more any ſerious, painful, and laborious Preacher, that like the kind Silk-worm, hath ſpinned out his own Bowels for the Publick good, and been o<g ref="char:EOLhyphen"/>thers loud Call from Sin and Vanity, to the ſincere Profeſſion of the Goſpel, as their higheſt Advantage and Gain.</p>
+            <p>We are greatly ſtupid, if we eye not their death (the moſt gainful to themſelves) as our own miſery and loſs, the loudeſt Alarm to a ſerious preparation for our own Diſſolution and Change, (that muſt as cer<g ref="char:EOLhyphen"/>tainly overtake us, as it hath them) and the ſaddeſt in<g ref="char:EOLhyphen"/>dication of Heaven's ſevereſt Diſpleaſure againſt us, in the inundation of the heavieſt Calamities, that by their powerful Interceſſions they might have kept off, and prevented, if there be any thing of weight in the moſt ſacred complaint; <hi>The righteous periſheth,</hi>
+               <note place="margin">Iſa. 57.1.</note> 
+               <hi>and no man layeth it to heart; and merciful men are taken away, none conſidering that the righteous is taken away from the evil to come.</hi> And who can forbear dropping a ſigh, or weeping a tear, if not a floud, for the death of him we have lately followed to the Earth, and ſeen covered up therewith, as a much-to-be-lamented loſs, as a Chri<g ref="char:EOLhyphen"/>ſtian, and a Miniſter; and of juſtice challenging a greater tribute of Reſpect to his Memory and Aſhes than what yet we have paid?</p>
+            <pb n="2" facs="tcp:171671:4"/>
+            <p>But leaving at preſent ſo Melancholy a Theme, the ſad Occaſion of our Aſſembling; Let us come nearer the Text, that plainly tells us, Life or Death, as they moſt effectually advance the Honour of Chriſt, ſhould be the chief matter of our Rejoycing and Triumph: But as it is hard to determine, whether one or the o<g ref="char:EOLhyphen"/>ther; the one in a painful ſervice in his Church, the other in a holy dying Profeſſion of his Truth, hath the greateſt tendency thereunto; ſo a difficulty oftentimes almoſt invincible attends the Choice.</p>
+            <p>As for the diviſion of the Text, it naturally branch<g ref="char:EOLhyphen"/>eth it ſelf out into theſe parts.</p>
+            <p n="1">1ſt,
+<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> St. <hi>Paul</hi>'s <hi>ſharp Conflict with each; For I am in a ſtrait betwixt two; q. d.</hi> Hemm'd in with Difficulties, not knowing which to take, nor which to leave; under a perplexity of mind, not capable of anſwering Argu<g ref="char:EOLhyphen"/>ments for one or the other; A preſſure of Spirit not to be expreſſed, as is elſewhere the import of the Phraſe, <hi>Luke</hi> 12.50. <hi>Acts</hi> 18.5.</p>
+            <p n="2">2. <hi>One chief Reaſon thereof;</hi> His deſire of being with Chriſt in a departure, <hi>(Having a deſire to depart, and to be with Chriſt.)</hi> This was what ſtirred up in him as earneſt longings for Death, as hopes of further ſer<g ref="char:EOLhyphen"/>vice to his dear <hi>Philippians,</hi> did of Life; or cauſed him to breathe out the moſt paſſionate deſires of quitting his abode on Earth, for that of Heaven; the <hi>Greek</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Having a deſire;</hi> as it denotes the greateſt permanency and conſtancy thereof, not a ſick or faint velleity, or ſudden Paſſion, that ſoon vaniſheth and is gone; ſo <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>to depart;</hi> it imports a diſſolution of parts, of which we were before compoſed, or the quitting of our Clayie Cottages, as perſons do their Houſes in a Journey; or a Ship, the Shore in a Voyage.</p>
+            <p n="3">
+               <pb n="3" facs="tcp:171671:4"/>3. <hi>His true judgment of that eſtate: Far, far,</hi>
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> or <hi>much, much,</hi> the better; <hi>i. e.</hi> To himſelf as his own greateſt perſonal Gain, tho not to others; the other Reaſon of his ſtrait, in what he next utters;
+<note place="margin">V. 24.</note> 
+               <hi>Never<g ref="char:EOLhyphen"/>theleſs to abide in the fleſh, is more needful for you.</hi>
+            </p>
+            <p>From whence ariſeth this Threefold Doctrine.</p>
+            <list>
+               <item>
+                  <hi>Truly holy ſouls,</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">Doct. </seg>I</label> 
+                  <hi>when Life and Death are ſet before them, may be in a very great ſtrait as to their choice of either.</hi>
+               </item>
+               <item>
+                  <hi>Truly holy ſouls are immediately with Chriſt at their departure from the body.</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">Doct. </seg>II</label>
+               </item>
+               <item>
+                  <hi>To be with Chriſt at our death, is far better than any bodily continuance on earth.</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">Doct. </seg>III</label>
+               </item>
+               <item>
+                  <hi>Truly holy ſouls, when life and death are ſet before them, may be in a very great ſtrait,</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">Doct. </seg>I</label> 
+                  <hi>as to their choice of either.</hi>
+               </item>
+            </list>
+            <p>St. <hi>Paul</hi> was ſo, not willing of a ceſſation from works, nor the delay of his Reward; deſirous of con<g ref="char:EOLhyphen"/>verting more fouls to Chriſt, and yet longing to be himſelf with him; in a ſtrait whether he ſhould be yet longer ſurrounded with the moſt afflictive trou<g ref="char:EOLhyphen"/>bles, (as are thoſe of this preſent life, of one kind or another) or received to a Heavenly Enlargement and Reſt. And what was his Conflict, may be that of others, under different Apprehenſions or Temptati<g ref="char:EOLhyphen"/>ons. At one time they are reaſoning, (there is a Ser<g ref="char:EOLhyphen"/>pent every where with his alluring Apple, except in the Heavenly Paradiſe); How can I leave this plen<g ref="char:EOLhyphen"/>tiful Eſtate to the ſpoils of luxurious Spend-thrifts, riepend enough without them for deſtruction? How this dear companion of all my earthly comforts and ſorrows? How theſe Children of my delights, ſtand<g ref="char:EOLhyphen"/>ing as <hi>Olive-plants about my table,</hi>
+               <note place="margin">Pſal. 128.3.</note> e're I can leave them Holy and Gracious? Might I not, if longer ſpared
+<pb n="4" facs="tcp:171671:5"/>in the world, be of farther uſe and ſervice in it, than hitherto, through remiſsneſs or ſloth I have been? Are not threatned Judgments calling for Interceſſors? I might be one in the gap to prevent. Are not hun<g ref="char:EOLhyphen"/>gry bellies, and naked backs calling for Relief? It will be, at the laſt day, my greateſt Honour and Hap<g ref="char:EOLhyphen"/>pineſs,
+<note place="margin">Mat. 25.34. to the 40.</note> to have fed and cloathed them? Are not dark, ſecure, and comfortleſs Souls needing Counſels, A<g ref="char:EOLhyphen"/>wakenings, and Supports? I'de ſpare no pains to Awaken, Direct, and Chear: And ſhall I be of far<g ref="char:EOLhyphen"/>ther uſe and ſervice to neither? Have I finiſhed my whole work? Might no Talent be better improved; nor in any thing the Honour of my dear Redeemer more advanced? Is his Church in her fulleſt Glory, I would rejoice to ſee her in? Am I dying, ere Reli<g ref="char:EOLhyphen"/>gion is living? And ſoon again, as conquered by quite different motives, they are breathing out quite contrary deſires; pleading, When, Lord, ſhall I be releaſed from this preſent bondage and miſery? When from this heavy load of Corruption? When from the cruel buffetings of Satan? When from the grief I am in for the Afflictions of thy <hi>Zion;</hi> for which I weep,
+<note place="margin">Lam. 1.16.</note> 
+               <hi>mine eye, mine eye runneth down with water?</hi> When from the tempting Flatteries, and unkind Per<g ref="char:EOLhyphen"/>ſecutions of this vain and fooliſh world, that would allure or affright me from my Reward and Crown? When ſhall I exchange theſe dead, cold, and heart<g ref="char:EOLhyphen"/>leſs duties, for Triumphant Praiſes and Hallelujahs? When for tranſient viſits on earth, ſhall I have a per<g ref="char:EOLhyphen"/>manent enjoyment of Thee in Heaven? Ah! I ſee a beauty, a deſirableneſs in nothing that can be matched with thy All-Glorious Perfections: Huſ<g ref="char:EOLhyphen"/>band, Wife, and Children are dear; but thou art dearer to me than all; how it repents me, that I ſhould
+<pb n="5" facs="tcp:171671:5"/>place ſo much of affection on them, as I have done. <hi>Come, Lord Jeſus, come quickly.</hi>
+               <note place="margin">Rev. 22.20. Judg. 5.28. Cant. 8.14.</note> Why ſo ſlack in thy approaches? <hi>Why is thy chariot ſo long in coming? Why tarry the wheels thereof? Make haſte, my beloved, and be thou like to a Roe, or young Hart upon the mountains of ſpices.</hi> But a little while, and I ſhall be triumphing in thy bleſſed Arms and Boſom, where I ſhall ſin no more, and ſorrow no more. A Pain, a Sigh, a Groan more, as the happieſt I ever felt, finiſheth my days, and compleats my joys: And who longs not with me for the approach of this hour? Shall I carry none with me to Heaven, as unwilling to be happy alone! Holy <hi>David</hi> was in a ſtrait, as to the choice of three the greateſt evils, <hi>Famine, Peſtilence,</hi> and <hi>Sword.</hi>
+               <note place="margin">2 Sam. 24.14.</note> The Saint is oftentimes ſo, as to two the greateſt goods, the Work and Service of Life, and the Reward and Gain of Death.</p>
+            <p>
+               <hi>Cenſure not any for it.</hi> 
+               <label type="milestone">
+                  <seg type="milestoneunit">Ʋſe </seg>I</label> 'Tis ſad when an over-ween<g ref="char:EOLhyphen"/>ing affection to any creature-comfort, is the reaſon of it: Earthly delights are put into the ſame balance with heavenly; but not where hopes of farther ſer<g ref="char:EOLhyphen"/>vice in the world is ſo. O Grace indeed! to be found weighing the Soul-advantages of others, in the ſame ſcale with our own. O Noble Soul! that can be wil<g ref="char:EOLhyphen"/>ling to be one moment out of Heaven, in hopes of being others happy Convoy thither.</p>
+            <p n="2">2. <hi>Think Heaven deſirable:</hi> Needs muſt it be ſo, as what frees us from every pinching ſtrait; particularly that of Living or Dying: For the Soul there, how unwilling ſoever it was to quit this life, is wholly freed from any the leaſt inclination of returning back to it; under no more ſharp conflicts of leaving crea<g ref="char:EOLhyphen"/>ture-comforts; but triumphs in God, as better than all.</p>
+            <q>
+               <hi>Truly holy ſouls are immediately with Chriſt at their departure.</hi> 
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>II</label>
+            </q>
+            <pb n="6" facs="tcp:171671:6"/>
+            <p>With him, as in a ſtate of Separation from their earthly bodies, ſo without the aſſuming of any Aere<g ref="char:EOLhyphen"/>al; there is not any more need of this, for a heavenly converſe with their fellow-Spirits, than of Angels one with another.</p>
+            <p>With him, as not ſleeping in the Grave till the Re<g ref="char:EOLhyphen"/>ſurrection, nor tormented with Purgatory-Flames: As the former is an inlet to the greateſt Infidelity and Atheiſm, ſo the latter is greatly derogatory from the Riches of Free-Grace in their forgiveneſs and pardon, as implying a Puniſhment of a fault remitted; a For<g ref="char:EOLhyphen"/>giving the Treaſon, but Executing the Traytor: For which, may they continue to plead, who experience the ſecular gain thereof, as of any the moſt profitable fire in their Kitchen; others, as great Maſters of Reaſon as themſelves, dare not: but, as fully re<g ref="char:EOLhyphen"/>deemed by the Blood of Chriſt, from all future pains and miſery, can heartily laugh at thoſe of an imagi<g ref="char:EOLhyphen"/>nary Purgatory: For we are told, we have <hi>Redemption through his blood,</hi>
+               <note place="margin">Eph. 1.7.</note> 
+               <hi>the forgiveneſs of ſins, according to the riches of his grace.</hi> And how far a leſs noble Redemp<g ref="char:EOLhyphen"/>tion and Forgiveneſs would it be, than he hath obtain<g ref="char:EOLhyphen"/>ed for us, were we after this life to be refined for Hea<g ref="char:EOLhyphen"/>ven in Flames (according to the Popiſh notion), not differing from thoſe of Hell,
+<note place="margin">Luke 23.43.</note> except in duration? The Converted Thief enters, the very day he ſuffered, into Paradiſe: It is not to be thought, that no greater happineſs was deſigned him in the promiſe of it, than the aſſurance of it after ſome longer continuance of time,
+<note place="margin">Acts 7.59.</note> than the very preſent day in which it was made. <hi>Stephen</hi> cemmends his Spirit to Chriſt at his Death. Our good works,
+<note place="margin">Rev. 14.13. Eccl. 12.7.</note> as meant of their reward, are ſaid to <hi>follow</hi> us. <hi>The duſt to return to the earth,</hi> as it was, and the <hi>ſpirit unto God that gave it.</hi> And (which ſeems to be the moſt convincing Argument of it), Are or
+<pb n="7" facs="tcp:171671:6"/>can they be rightly deſirous of a Diſſolution, upon no other account? It is not to be ſuppoſed, Thinking, Rational Creatures ſhould be willing to part with Life, the greateſt of Temporal Bleſſings, for the Re<g ref="char:EOLhyphen"/>demption of which, a man will give <hi>skin for skin,</hi>
+               <note place="margin">Job 2.8.</note> and <hi>all that he hath,</hi> for a ſilent ſtate in the grave, or the moſt inſupportable of pains? No, rather ſtrip them of their hopes of a preſent happineſs at death; and very unaccountable are their deſires of it: They, as knowing <hi>when the earthly houſe of this tabernacle is diſ<g ref="char:EOLhyphen"/>ſolved,</hi>
+               <note place="margin">2 Cor. 5.1, 2.</note> 
+               <hi>they ſhall have a building of God, an houſe not made with hands, eternal in the heavens;</hi> are <hi>groaning enrneſtly, deſiring to be clothed upon with their houſe which is from heaven.</hi>
+            </p>
+            <p>
+               <hi>Don't be prejudiced againſt Religion, or a holy life,</hi> 
+               <label type="milestone">
+                  <seg type="milestoneunit">Ʋse. </seg>
+               </label> for any the greateſt earthly afflictions or ſufferings of gra<g ref="char:EOLhyphen"/>cious ſouls. You have little reaſon to be ſo, their Deaths are ſo happy; if their Lives are ſo miſerable, their <hi>Exit</hi> is Peace; their Reward, Life Everlaſting;
+<note place="margin">Pſal. 37.37. Gal. 6.8.</note> and their preſent ſorrow and affliction, the bleſſed ſchool in which they have been diſciplined and trained up for it. And will you continue to be ſo prejudiced?
+<note place="margin">Pſal. 119.67.</note> Live rather their lives, as you would dye their deaths. It is moſt fooliſh without this to wiſh,
+<note place="margin">Numb. 23.10.</note> 
+               <hi>Let me dye the death of the righteous, and let my laſt end be like his.</hi> Em<g ref="char:EOLhyphen"/>brace Piety as your richeſt gain; avoid ſin as your higheſt folly; and remember, That as aged and ſtrick<g ref="char:EOLhyphen"/>en in years, <hi>the hoary head is a crown of glory,</hi>
+               <note place="margin">Prov. 16.31.</note> 
+               <hi>when found in the way of righteouſneſs;</hi> ſo as young, you are called upon to <hi>Remember your Creator in the days of your youth:</hi>
+               <note place="margin">Eccl. 12.1.</note> The dedication of your youthful parts, ſtrength, and vigour, to him and his ſervice, ſeems greatly intended, in that under the Law,
+<note place="margin">Deut. 18.4. Chap. 26.2. Mat. 21.15. John 21.7.</note> of the <hi>firſt fruits</hi> for Sacrifice. The <hi>Hoſannahs</hi> of Children were pleaſing to Chriſt in the Temple: St. <hi>John,</hi> of any, his young<g ref="char:EOLhyphen"/>eſt
+<pb n="8" facs="tcp:171671:7"/>Diſciple, was evidently his moſt beloved Diſciple. On you, of any, are founded the faireſt hopes of being the moſt faithful Inſtruments of ſervice in Church and State, in the room of thoſe deceaſed. You are, of any, both the joys and fears of indulgent Parents, and pain<g ref="char:EOLhyphen"/>ful Preachers; almoſt weary of this world, they can do no more good in it; and you only are thoſe that can turn the old Helliſh Proverb, <hi>A Young Saint, and an Old Devil;</hi> into what looks more like Truth, and appears divine (be the Doctrine of our final Perſe<g ref="char:EOLhyphen"/>verance in Grace begun, acknowledged ſuch), a Saint in Youth, and a bright Angel for Holineſs in Old Age; an Angel in Youth, and a Seraphim in Glory.</p>
+            <p>
+               <hi>To be with Chriſt at our death,</hi> 
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>III</label> 
+               <hi>is far better than any bo<g ref="char:EOLhyphen"/>dily continuance on the earth.</hi>
+            </p>
+            <p>In the proſecution of which, I ſhall only ſhew,</p>
+            <p n="1">1. How, or in what reſpects it is ſo.</p>
+            <p n="2">2. The Uſe.</p>
+            <p n="1">1. <hi>How, or in what reſpects it is ſo.</hi> And here, where ſhall I begin, or where ſhall I end? What a work have I undertaken? How unfit am I to diſcourſe of the bliſsful ſtate of departed ſouls in Heaven, who know ſo little of Souls or Spirits on Earth? Shall I deſcribe a City or Plantation I never ſaw or viewed, but in the Hiſtory or Map? Much leſs a future Glory, which I am ſure much more to fail in the deſcription of? Me<g ref="char:EOLhyphen"/>thinks I hear it more than whiſpered, <hi>Who is this that darkneth counſel,</hi>
+               <note place="margin">Job 38.2.</note> 
+               <hi>by words without knowledge?</hi> Stop thou ſtammering Tongue, and frail Mortal, thy blackeſt Pen, with which thou art ſure but to ſhade and dark<g ref="char:EOLhyphen"/>en what thou fondly hopeſt in lively colours to paint out and enliven.
+<note place="margin">2 Cor. 12.4.</note> They were <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>words un<g ref="char:EOLhyphen"/>utterable,</hi> or <hi>unſpeakable,</hi> the bleſſed Apoſtle, the great St.
+<note place="margin">1 Cor. 2.9.</note> 
+               <hi>Paul,</hi> heard in his higheſt Rapture; <hi>Eye hath not ſeen, ear hath not heard, nor heart conceived, the things
+<pb n="9" facs="tcp:171671:7"/>which God hath prepared for them that love him.</hi> And wilt thou attempt to tell us more? 'tis impoſſible, alas, impoſſible. But a dark and blurr'd diſcovery being better than none, be pleaſed to take it in this two-fold particular only: <hi>viz.</hi>
+            </p>
+            <p n="1">1ſt, <hi>A total removal of all Evil.</hi>
+            </p>
+            <p n="2">2dly, <hi>The actual poſſeſſion and enjoyment of all Good.</hi>
+            </p>
+            <p n="1">1. <hi>A total removal of all Evil; as of Sin, and Sorrow.</hi>
+            </p>
+            <p n="1">1. <hi>Of Sin.</hi> Sin our greateſt burthen here,
+<note place="margin">Rom. 7.24.</note> the which made us often to utter the Apoſtolick Complaint, <hi>Oh wretched man that I am, who ſhall deliver me from the bo<g ref="char:EOLhyphen"/>dy of this death!</hi> ſhall be none then, but be deſtroyed rather; as in its Actings and Woundings, ſo in its very <hi>Eſſe,</hi> or Being. Not a vain Thought, the ſinfulneſs of which once enkindled in the Almighty <hi>A repentance of his ever making man;</hi>
+               <note place="margin">Gen. 6.5, 6. Jer. 4.14.</note> and we are bid to diſlodge. Not a vain Word; Our words are ſo far ſo, that we may call moſt of them, what the Satyriſt calls ſome,
+<note place="margin">Perſ. <hi>Sat.</hi> 5. <hi>Bullaras nugas, utpote ſimile, Bullis vento plenis.</hi> Rev. 3.4.</note> 
+               <hi>Bubbly toys; they are ſo like a Bubble full of wind:</hi> not a ſinning Principle, a ſinning Diſpoſition, a ſinning Inclination is then remaining. We are cloathed in <hi>White,</hi> the moſt lively Emblem of Holineſs, and have <hi>Spirits made perfect.</hi> Our Sanctification is compleat;
+<note place="margin">Heb. 12.23. 1 John 3.12. Epheſ. 4.13.</note> the Divine Image, in which we were at firſt formed, moſt bleſſedly reſtored. And oh happy bliſsful State! that at once ſtrips us of all our former rotten Rags of Sin, and Luſt, and moſt richly adorns us with thoſe of a primitive Perfection and Purity. How ſhould this be the Mark and Prize we aim at! It was that St. <hi>Paul</hi> did ſo, in, and under his greateſt Spiritual Attainments, <hi>Philip.</hi> 3.13, 14.</p>
+            <p n="2">2. <hi>Of Sorrow.</hi> Sorrows of one kind or another at<g ref="char:EOLhyphen"/>tend every worldly Condition: We come into the World with a Cry, and take our farewel of it with a Groan. One (of any the ſevereſt of Sorrows) is be<g ref="char:EOLhyphen"/>moaning
+<pb n="10" facs="tcp:171671:8"/>himſelf under ſpiritual Deſertions, the preva<g ref="char:EOLhyphen"/>lency of Corruption, and Buffetings of <hi>Satan:</hi> Another paſſionately weeping for the death of Relations; this day like <hi>Jonah</hi>'s Gourd, flouriſhing; the next, dead and withered. Now the delight of our Eyes, and the chief of our Affections;
+<note place="margin">Gen. 24.3.</note> but anon a dead <hi>Sarah</hi> that muſt <hi>be buried out of our ſight.</hi> Another, expreſſing his Poverty and Loſſes, through Plunderings and Perſecutions: A<g ref="char:EOLhyphen"/>nother, his reſtleſs days and nights through Pains and Sickneſs. But farewel Sorrow, farewel Grief in Hea<g ref="char:EOLhyphen"/>ven, as no place for either. Then no more Devil to aſſault and tempt us, nor malicious World to afflict and perſecute us; no more aking Head, ſick Heart, burn<g ref="char:EOLhyphen"/>ing Fever, grinding Stone, painful Cholick, trembling Palſie, waſted Strength, mouldring Carcaſe; no more ſcoffing <hi>Iſhmael,</hi> profane <hi>Eſau,</hi> ſpiteful <hi>Canaanite,</hi> ſcratch<g ref="char:EOLhyphen"/>ing Thorn, pricking Brier; but an end of ſinning, and an end of ſorrowing and weeping; an end of ſinning, and an end of dying;
+<note place="margin">Rev. 20.4. 1 Theſſ. 4.17.</note> a dying once, and a living with the Lord for ever.</p>
+            <p>And not only is it better to be with Chriſt at our death, than to enjoy the longeſt bodily continuance here as to this two-fold Evil of Sin and Sorrow, we are fully delivered from. But,</p>
+            <p n="2">2. <hi>As to the actual poſſeſſion and enjoyment of all good.</hi>
+            </p>
+            <p n="1">1. <hi>A perfection of Knowledge.</hi> Here it is blemiſhed with much imperfection and ignorance. One who had made the ſacred Scriptures his chief ſtudy, confeſſed, <hi>Multo plura neſcio quam ſcio, He was ignorant of more than he knew.</hi> And ſome of the <hi>Jewiſh</hi> Rabbies the like, in their known Saying, <hi>Elias cum venerit ſolvet omnia,</hi> Elias, <hi>when he cometh, ſhall give a ſolution to all things,</hi> though we cannot. But then ſhall all our preſent ig<g ref="char:EOLhyphen"/>norance and imperfection be done away, and our know<g ref="char:EOLhyphen"/>ledge be no longer in part, but compleat and perfect;
+<pb n="11" facs="tcp:171671:8"/>not mediate, or at the ſecond hand only, by diſcourſe, ſtudy and meditation; but immediate, and intuitive. And that, as of God, his Divine Being and Perfections;
+<note place="margin">1 Cor. 13.12.</note> ſo of Chriſt his Myſterious Incarnation, Union of Na<g ref="char:EOLhyphen"/>tures without change of Properties; and of the Holy Spirit of Grace, how the ſame in Eſſence, and yet di<g ref="char:EOLhyphen"/>ſtinct as to Perſon. How Creation, Redemption and Sanctification, are the proper work of one, or the other; and yet as works <hi>ad extra,</hi> alike applicable to either. And of the moſt Myſterious Actings of Providence in the World,
+<note place="margin">Job 10.3. Pſal. 73.16.</note> we could before give no account of, nor durſt demand any. How we were afflicted, and yet beloved; What Souls are, as to their Royal Original, and what as to their moſt vivacious Actings; without the aſſiſtance of any corporeal Organ; with innume<g ref="char:EOLhyphen"/>rable difficulties, no Hypotheſis in Philoſophy can give an exact ſolution of. Oh the knowledge that a Soul one minute in glory, hath of delightful Myſteries, be<g ref="char:EOLhyphen"/>yond what on Earth we are capable of, by the moſt painful Converſe with Men or Books! He knows more than us all, and is perfectly happy in the knowledge of what he knows; whilſt in the knowledge of many things we are miſerable, and as to our knowledge of what we ought chiefly to know, have reaſon to ſigh out the complaint of our ignorance.</p>
+            <p n="2">2. <hi>Exactneſs of conformity in every thing to the divine Image.</hi> For what Grace in our bleſſed Conformity there<g ref="char:EOLhyphen"/>unto, is not then in its livelieſt and higheſt Exerciſe! Our Love, our Delight, our Joy and Rejoycing is ſo, if not Deſire, Faith and Fear wholly ceaſing; As we actually enjoy the good or happineſs we wiſhed for, be<g ref="char:EOLhyphen"/>lieved, or dreaded the loſs of. And as for our obedience in every thing to the Divine Will, it is the moſt chearful, conſtant and perfect; or to what end do we pray, <hi>Thy will be done on earth, as it is in heaven?</hi>
+            </p>
+            <p n="3">
+               <pb n="12" facs="tcp:171671:9"/>3. <hi>Conſtancy of abode.</hi> They are no longer complain<g ref="char:EOLhyphen"/>ing,
+<note place="margin">Heb. 13.14.</note> We have here <hi>no continuing City.</hi> No more reſtleſs in their motions from place to place, like <hi>Noah</hi>'s Dove, that found no reſt for the ſole of her Foot, the Waters had ſo covered the Earth; but plucked in rather by a tender hand into the heavenly Ark, where they have reſt perpetual, are fixed the Citizens of the New <hi>Je<g ref="char:EOLhyphen"/>ruſalem,</hi> that City above, where they are for ever at home. And oh the happineſs of this, beyond what poſſibly at preſent we entertain the thoughts of! It is ſo undoubtedly as to that Venerable, Gray-headed Diſ<g ref="char:EOLhyphen"/>ciple and Soldier of our dear Redeemer deceaſed, of any man I have known, ſince he firſt left his Publick Living for the ſake of conſcientious innocent Noncon<g ref="char:EOLhyphen"/>formity; His Life appeared but one continued Journey and Travel from place to place; and no removal there<g ref="char:EOLhyphen"/>of was apparently more his death's ſtroke, than his laſt, from his Native County, and dear People of his Affections, as he often ſtiled them, to ſing out his dy<g ref="char:EOLhyphen"/>ing, ſweet and Swan-like Notes with you.</p>
+            <p n="4">4. <hi>Sweeteſt Harmony and Concord one with another.</hi> It ſeems the leaſt of doubts, that Souls departed know each other in Glory; Why not, as well as <hi>Adam</hi> in the ſtate of Innocency? Of whom it is ſaid, that as ſoon as he awaked out of his deep Sleep, <hi>He knew Eve to be bone of his bone, and fleſh of his fleſh.</hi> And no ſmall part truly of their Happineſs is it, that they have the higheſt ſatisfaction and contentment one in another, as partakers of the ſame Reſt, and alike imployed in the ſame moſt noble and delightful work of Praiſe.</p>
+            <p>Heaven admits of no Miſtakes, nor miſunderſtand<g ref="char:EOLhyphen"/>ings one of another; and 'tis pity this lower World ſhould do it. There are no Treacherous <hi>Judas</hi>'s to betray us with a Kiſs; nor faithleſs Friends, whoſe friendſhip is as vaniſhing as the ſmoak and vapour;
+<pb n="13" facs="tcp:171671:9"/>but rather a <hi>Hooper</hi> and a <hi>Ridley</hi> more fairly-ſhaking hands, than ever they agreed in their Priſons. A <hi>Lu<g ref="char:EOLhyphen"/>ther</hi> and a <hi>Calvin</hi> ſworn Friends, or rather a perpetual and everlaſting Friendſhip, that ſhall never once be violated; begun not only with known Friends deceaſ<g ref="char:EOLhyphen"/>ed, but all the Holy Patriarchs, Prophets, Apoſtles and Martyrs, we never before ſaw or knew. And may there, as the livelieſt Emblem of Heaven, be more of Brotherly Peace, Love and Amity on Earth; May no trifling difference in Judgment ſeparate Affections, but each one for the future make it their only conten<g ref="char:EOLhyphen"/>tion, who ſhall moſt advance the Intereſt of the Lord Jeſus in the World; and reſolve to leave thoſe of leſſer moment, to ſuch as think they have greater Concerns to mind, than an endleſs bleſſed Eternity we are pro<g ref="char:EOLhyphen"/>feſſedly waiting, hoping, longing for, and haſtning to. And which follows on this,</p>
+            <p n="5">5. <hi>Fulneſs, unſpeakableneſs, and Eternity of Delight and joy.</hi>
+            </p>
+            <p n="1">1. <hi>Fulneſs, and unſpeakableneſs.</hi> It is a Joy redun<g ref="char:EOLhyphen"/>dant and overflowing, yet what admits of degrees, or it had never been ſaid, <hi>They that be wiſe,</hi>
+               <note place="margin">Dan. 12.3.</note> 
+               <hi>ſhall ſhine as the brightneſs of the firmament; and they that turn many to righteouſneſs, as the ſtars for ever and ever.</hi> But every holy glorified Soul, more or leſs capacious, is as truly full of it, as the leſſer Veſſel thrown into the Sea, leſs capacious, yet is as full as the greater.
+<note place="margin">Matt. 25.21. Pſal. 16.11.</note> A Joy too great to enter into us, for which we are bid to <hi>enter into it.</hi> A Fulneſs inexhauſtible, and that laſts for ever. A Joy that at preſent ſupports under the moſt painful Tribulations, and Afflictive Loſſes.
+<note place="margin">Rom. 5.3. Heb. 10.34.</note> Primitive Wor<g ref="char:EOLhyphen"/>thies gloried therein; And <hi>took joyfully the ſpoiling of their goods, as knowing they had in heaven a more endu<g ref="char:EOLhyphen"/>ring ſubſtance.</hi> A Joy, of which God himſelf is the Author, which was of everlaſting preparation,
+<note place="margin">Matt. 25.34.</note> and
+<pb n="14" facs="tcp:171671:10"/>the moſt affecting Subject of his deareſt Son's Interceſ<g ref="char:EOLhyphen"/>ſion. He had never Grace more apparently poured in<g ref="char:EOLhyphen"/>to his Lips,
+<note place="margin">Pſal. 45.2.</note> than when he uttered, <hi>Theſe things I ſpeak in the world, that they might have my joy fulfilled in them<g ref="char:EOLhyphen"/>ſelves.</hi>
+               <note place="margin">John 17.13, v. 24.</note> Or as the everlaſting ſubject thereof he pleaded, <hi>Father, I will that thoſe whom thou haſt given me, be with we where I am, that they may behold the glory which thou haſt given me; for thou lovedſt me before the founda<g ref="char:EOLhyphen"/>tion of the world.</hi> A Joy compleatly ſatisfactory; and that as to the place of it, Heaven; excelling in glory all that is earthly.
+<note place="margin">Luke 23.43. Rev. 21.10. Rev. 21.2. Luke 22.29. Luke 12.32. Matt. 25.32. Rev. 4.8. Rev. 2.10.</note> It is ſtiled upon this Account, <hi>Pa<g ref="char:EOLhyphen"/>radiſe, the great City, the new Jeruſalem, the Kingdom pre<g ref="char:EOLhyphen"/>pared from the foundation of the world;</hi> the work of it, <hi>Praiſes and Thankſgiving,</hi> of any the moſt noble and delightful: Its advancement, <hi>Thrones, Scepters and Crowns;</hi> our Company, <hi>God, Chriſt, and glorified Be<g ref="char:EOLhyphen"/>ings.</hi> And our heavenly Converſe as with the former, ſo the latter, communicating their thoughts to us, and we ours to them, in a way much more noble and ex<g ref="char:EOLhyphen"/>cellent, than that at preſent of our quainteſt and ex<g ref="char:EOLhyphen"/>acteſt Oratory. Oh the various Delights and Joys, reſulting from each part of ſuch our fulneſs and variety of Happineſs, yet no way diverting us from God the Chief; but leading of us rather to the greater admira<g ref="char:EOLhyphen"/>tion of his rich Sovereign Love and Goodneſs, in pre<g ref="char:EOLhyphen"/>paring each part of it for Creatures the moſt vile and unworthy; and the higheſt thankfulneſs to him, for the Death and Satisfaction of his Son, by which only it hath been obtain'd and purchaſed. And,</p>
+            <p n="2">2. <hi>Eternity.</hi> It is what ſhall never have an end. We are never more dreading the clouding or Eclipſes of it; but is a Life of joy that laſts for ever. A Joy that is eſſentially compleat at death, but will be every way ſo at the Reſurrection, in the re-union of our Souls to our Bodies;
+<note place="margin">Phil. 3.21.</note> 
+               <hi>Faſhioned like unto Chriſt's moſt glorious
+<pb n="15" facs="tcp:171671:10"/>body.</hi> It being then this deſpicable Clay ſhall ariſe <hi>in<g ref="char:EOLhyphen"/>corruptible and immortal,</hi>
+               <note place="margin">1 Cor. 15.53.</note> and be alike Partners in glory with our Souls, as they have both been ſo in work and ſervice. Eternally in glory, <hi>for ever with the Lord:</hi> And oh madneſs unſpeakable, to prefer the greateſt Comforts and Enjoyments of Life, before ſuch the greateſt Happineſs and Joy at Death! Oh what are Riches, Honours, and worldly Greatneſs, that you ſhould put them into the ſame Scale! Alas, but vain and empty dead Comforts, dead Enjoyments, that ſpeak you as fooliſh in the hugging of them, as was the <hi>Egyptian</hi> in that of the Carved Image or Statue of his dead Son; he hoped with Crown'd Garlands, and a profound reſpect paid to it, would have been the to<g ref="char:EOLhyphen"/>tal cure of his Sorrow; but as the Hiſtorian tells us, proved rather the life and reſurrection thereof. They are but ſweet Diſhes, Death with his Voider will ſoon ſweep away, leaving you only a cutting Reckoning to pay, for the full feaſt and meal of them you have made. They are but Comforts and Enjoyments that are every day on their wing from you, were not you ſo from them.
+<note place="margin">Prov. 23.5.</note> And will you then continue to do this? haſte rather from their tempting Deſtruction; make ſure of more ſatisfactory Delights, I mean thoſe of a heavenly State, which righteous Souls, as the for<g ref="char:EOLhyphen"/>mer Doctrine tells you, preſently partake of at their Death. And this laſt they are moſt unſpeakably hap<g ref="char:EOLhyphen"/>py in, beyond any the longeſt bodily continuance on Earth.</p>
+            <p>But to haſten to a more practical improvement of what hath been ſaid. As,</p>
+            <div type="part">
+               <pb n="16" facs="tcp:171671:11"/>
+               <head>The <g ref="char:V">Ʋ</g>SE let it be inferred,</head>
+               <p n="1">1ſt, Oh the <hi>dreadful Miſery of the Damned!</hi> For if to be with Chriſt at our death, is ſo deſirable; to be baniſhed from him then, muſt needs be dreadful. Oh the ſad exchange they have made of this Life, for what is future. Tongue cannot expreſs the leaſt part of their Torment and Sorrow, and that from the diſmal place they are in, ſet forth to us in all the doleful Ex<g ref="char:EOLhyphen"/>preſſions of Horrour;
+<note place="margin">Iſa. 30 <hi>ult.</hi> 1 Pet. 3.19. Rev. 20.3. Matt. 13.42. Rev. 19.20. Luke 16.28. Matt. 22.13. 2 Pet. 2.4. Jud. 13.</note> as of <hi>Tophet, a Priſon, Bottom<g ref="char:EOLhyphen"/>leſs Pit, Furnace of Fire, Lake of Fire, Place of Tor<g ref="char:EOLhyphen"/>ment, Outer-Darkneſs, Chains,</hi> and <hi>Blackneſs of Dark<g ref="char:EOLhyphen"/>neſs.</hi> Their Eternity, <hi>Ever, Ever,</hi> being as a thou<g ref="char:EOLhyphen"/>ſand Daggers wounding, or Scorpions ſtinging; and the Accuſations of Conſcience ſtill gnawing them, like <hi>Prometheus</hi> his Vulture, for their inexcuſable folly, as in running themſelves upon the Miſery they might ſo fairly have avoided; ſo in loſing the God, the Saviour, the Kingdom and Glory they might have gained. And ſhall then the Offers of each be ſlighted any lon<g ref="char:EOLhyphen"/>ger by you? Why ſo fooliſhly contented to be miſe<g ref="char:EOLhyphen"/>rable, when wooed to be happy? Trifle not away one offer of Grace more, leſt it be your laſt.</p>
+               <p n="2">2. <hi>Be leſs diſmayed, if holy and righteous, at the ap<g ref="char:EOLhyphen"/>proach of death, as to your ſelves; and learn more to mo<g ref="char:EOLhyphen"/>derate your ſorrow for that of others,</hi> you had reaſon to believe ſuch.</p>
+               <p n="1">1. <hi>Be leſs diſmayed, if holy and righteous, at the ap<g ref="char:EOLhyphen"/>proach of death, as to your ſelves.</hi> It is alas! as to you, but an enemy unſtung and diſarmed, if in its ſelf the King of Terrors;
+<note place="margin">Job 18.14</note> what but lodgeth your Bodies in a Grave, the moſt ſweetly perfumed by the Burial of the
+<pb n="17" facs="tcp:171671:11"/>Son of God, and your Souls with him in endleſs Hap<g ref="char:EOLhyphen"/>pineſs; and ſo as Conquerors, already over each, bids you to Triumph, <hi>Oh death, where is thy ſting? Oh grave,</hi>
+                  <note place="margin">1 Cor. 15.55, 56, 57.</note> 
+                  <hi>where is thy victory? The ſting of death is ſin, and the ſtrength of ſin is the law; but thanks be to God, who gi<g ref="char:EOLhyphen"/>veth us the victory, through our Lord Jeſus Chriſt.</hi>
+               </p>
+               <p n="2">2. <hi>Learn more to moderate your ſorrow for that of others,</hi> you have reaſon to believe ſuch.</p>
+               <p>For how ſhould the ſence of their Gain, ſwallow up all repinings at your Loſs, and excite you to as great a willingneſs of parting with them, as any have to the parting with their Children to the remoteſt ends of the earth, for the ſake of Temporal Advance<g ref="char:EOLhyphen"/>ments. Methinks upon this account ſorrow too often uſurps the Throne of Joy. We ſhould even be weep<g ref="char:EOLhyphen"/>ing at the Birth of an Infant, and rejoycing at the Death of a Saint: Or if (which Nature allows us) the eye muſt drop a tear, and the poor pained heart eaſe it ſelf in ſighs and groans, it ſhould be for this chiefly, That they have gotten ſo much the ſtart of us, as to be at their Kingdom and Reſt before us: Which as we are called to in the deaths of others, ſo particularly in that of this Worthy Perſon deceaſed: Concerning whom I may modeſtly ſpeak, That if his Soul be not now with his Redeemer in Heaven, there are but few of us who have not reaſon to deſpair of getting thither. So heavenly truly, and ſpiritual at all times were his words and diſcourſe, that we might have thought him unfit for earth, long before he left it. His Obſervation of the Lords Day, was moſt ex<g ref="char:EOLhyphen"/>emplary, as never (tho moſt mornings the earlieſt riſer) ſooner from his bed, nor later in it; even im<g ref="char:EOLhyphen"/>patient through the whole of it, of having his Mind and Ears filled with worldly Concerns, or to ſee any
+<pb n="18" facs="tcp:171671:12"/>part of it unredeemed. And as for his Induſtry and Painfulneſs in his Miniſterial Work, where he laſt was, both in Lectures and Faſts, it muſt be confeſſed, <hi>He laboured more abundantly than us all.</hi>
+                  <note place="margin">1 Cor. 15.10.</note>
+               </p>
+               <p>His Affections to you, in his coming to you, drown<g ref="char:EOLhyphen"/>ed greater Offers; as thinking himſelf more happy in the Affections, than the Fleece of his Flock: And how painful and acceptable his ſhort-liv'd Labours were among you, needs no fuller a proof, than his Laſt Sermon he Preached, with Death's cold Dart ſtricken to his heart; and the general Lamentations you expreſs for him. Upon the Death of his deareſt Relation, in very affecting expreſſions he uttered the deepeſt ſenſe of his own; he was heard thus to expreſs himſelf, <hi>The Lord fit thoſe whoſe turn is next: Ah! What would I not do, what would I not forgo for Chriſt and Heaven?</hi> And where is he now, but with him, reaping the full Reward of all his Painful La<g ref="char:EOLhyphen"/>bours? Not complaining any longer with his deareſt Lord,
+<note place="margin">John 1.11.</note> 
+                  <hi>He came to his own, but his own received him not:</hi> Nor bleeding under the unkindneſſes of Friends or Enemies: But as to his own fulneſs of Joy, and the miſeries that ſeem to threaten you, ſpeaking, tho dead, the ſame Language the other did,
+<note place="margin">Luke 23.28.</note> 
+                  <hi>Daughters of Jeru<g ref="char:EOLhyphen"/>ſalem, weep not for me, but weep for your ſelves, and for your children.</hi> And ſurely, as his gain, you ſhould ac<g ref="char:EOLhyphen"/>quieſce in your loſs; for can you bring him back again? It is impoſſible: The Grave, his Priſon till a Glorious Reſurrection, hath ſhut its mouth upon him. <hi>You</hi> muſt <hi>go to him,</hi>
+                  <note place="margin">2 Sam. 12, 22, 23.</note> 
+                  <hi>he</hi> ſhall <hi>not return to you.</hi> Or if you could, would you? The greateſt good you could thereby wiſh or hope for your ſelves, is not what would compenſate for his harm: He is arrived at too happy a Port, ever once more willingly to encounter
+<pb n="19" facs="tcp:171671:12"/>the Rocks and Quickſands, the rough Waves and Billows of a Tempeſtuous Sea; the dangers of which are paſſed; the conſideration of which, ſhould teach you to be quiet; <hi>be dumb,</hi> not opening of your mouths,
+<note place="margin">Pſal. 39.9.</note> it is God who hath done it. Receive chearfully a pre<g ref="char:EOLhyphen"/>ſent evil from thoſe hands,
+<note place="margin">Job 2.10. Job 1.20, 21.</note> from whence you have received ſo much good: Bleſs him <hi>taking,</hi> as well as <hi>giving.</hi> But that it may not be thought I plead for a Stoical inſenſibleneſs under ſo ſevere a ſtroke, let not tears or ſorrow take up with a preſent vent. It is a Death-ſtroke Heaven hath given; a Loſs that will not eaſily be repaired: But let him continue to live in your Thoughts, and to Preach in your Affections. It ſhould be as hard for you now he is deceaſed, to re<g ref="char:EOLhyphen"/>frain from telling the world in plenty of tears over his Grave, how well you loved him, as it was with ma<g ref="char:EOLhyphen"/>ny of you,
+<note place="margin">John 11.36.</note> when you ſtood by him in his Aſcent to Glory, to refrain from uttering, <hi>My father,</hi>
+                  <note place="margin">2 Kin. 12.12.</note> 
+                  <hi>my father, the chariot of Iſrael, and the horſemen thereof.</hi> And</p>
+               <p n="3">3. <hi>Long more to be with him therein.</hi> Gain is alluring, and ſhould not that of your being with Chriſt in your death be ſo? If far better evidence is ſuch by your de<g ref="char:EOLhyphen"/>ſires of it, as well as in the vanquiſhing the ſlaviſh fears of ſo grim a Meſſenger that muſt bring you to it; make haſte, prepare for it; yet not ſuch haſte as he made to know the truth of the Souls Immortality, who leap'd into the Sea, and drown'd himſelf, for a farther confirmation thereof, he was ſo affected with the <hi>Platonick</hi> Lecture of it he had read; but by Holy Preparations and Deſires, our only way through the Merits of a Redeemer, the Scritpure hath chalked out thither: O for a greater weanedneſs of affection from the periſhing delights and joys of the world, and greater out-goings of them to the unſeen and Immor<g ref="char:EOLhyphen"/>tal.
+<pb n="20" facs="tcp:171671:13"/>Let the one be more in your eye, the other more under your feet. Look well to every account, im<g ref="char:EOLhyphen"/>prove faithfully every Talent; live every day, per<g ref="char:EOLhyphen"/>form every duty as your laſt, that when you ceaſe to live, you may not be afraid to dye; but be filled ra<g ref="char:EOLhyphen"/>ther with St. <hi>Paul</hi>'s Triumph, with which I cloſe, 2 Tim. 4.7, 8. <hi>I have fought a good fight, I have finiſh<g ref="char:EOLhyphen"/>ed my courſe, I have kept the faith: Henceforth there is laid up for me a crown of righteouſneſs, which the Lord the righteous Judge ſhall give me at that day, and not to me only, but unto all them alſo that love his appearing.</hi>
+               </p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <head>
+               <hi>Books Printed for</hi> Tho. Cockerill.</head>
+            <list>
+               <item>
+                  <hi>R<g ref="char:V">Ʋ</g>SHWORTH</hi>'s Hiſtorical Collections, 2d Part, ne<g ref="char:EOLhyphen"/>ver before Printed; containing the Principal Matters which happened from the meeting of the Parliament 1640. to the end of the year 1644. in 2 Vol. Fol.</item>
+               <item>A Funeral Sermon on the Death of the Reverend Mr. <hi>Weſt.</hi>
+               </item>
+               <item>A Diſcourſe concerning Regeneration, Faith, and Repentance.</item>
+               <item>A Diſcourſe of the Chriſtian Religion, in ſundry Points.</item>
+               <item>The Incomprehenſibleneſs of Imputed Righteouſneſs for Ju<g ref="char:EOLhyphen"/>ſtification, by Human Reaſon, till enlightned by the Spirit of God.</item>
+               <item>
+                  <hi>Theſe Four by the Reverend Mr.</hi> Cole.</item>
+               <item>A Succinct and Seaſonable Diſcourſe of the Occaſions, Cauſes, Natures, Riſe, Growth and Remedies of <hi>Mental Errors;</hi> with a Diſcourſe of Infant Baptiſm, and againſt the <hi>Antinomians.</hi>
+               </item>
+               <item>A Diſcourſe of the Reaſonableneſs of Perſonal Reformati<g ref="char:EOLhyphen"/>on, and Neceſſity of Converſion.</item>
+               <item>Mr. <hi>John Flavell</hi>'s Remains; being two Sermons: The one Preached at <hi>Dartmouth,</hi> the other intended to be preached at a Meeting of Miniſters.</item>
+               <item>
+                  <hi>Theſe Three by</hi> John Flavell, <hi>late Miniſter of</hi> Devon.</item>
+               <item>A Companion for Prayer: By <hi>R. Alleine,</hi> Author of <hi>Vin<g ref="char:EOLhyphen"/>ditiae Pietatis.</hi>
+               </item>
+            </list>
+            <pb facs="tcp:171671:13"/>
+         </div>
+      </back>
+   </text>
+</TEI>
